@@ -2,17 +2,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './WelcomePage.css';
+import money from '../images/money1.jpg'
 
 const WelcomePage = () => {
   return (
     <div className="welcome-page">
       <div className="content">
-        <h1>Welcome to Your App</h1>
-        <p>Your app description goes here.</p>
+        <h1>WiseWallet</h1>
+        <div className="image-container">
+        <img src = {money} width={75} height={75} alt="Money" />
       </div>
-      <div className="image-container">
-        <img src="../images/money1.jpg" alt="Money" />
+        <p>Empower Your Financial Journey with WiseWallet</p>
       </div>
+     
       <div className="circles-container">
         <div className="circle active"></div>
         <div className="circle"></div>
