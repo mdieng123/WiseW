@@ -2,26 +2,30 @@
 import React from 'react';
 import '../style/WelcomePage.css';
 import { Link } from 'react-router-dom';
+import MoneyHand from '../images/money-hand.png';
+ 
 
 const WelcomePage4 = () => {
   return (
     <div className="welcome-page">
-      <div className="content">
-        <h1>Page 4</h1>
-        <p>Welcome to the fourth page.</p>
-      </div>
-      <div className="image-container">
-        <img src="../images/money4.jpg" alt="Money" />
-      </div>
-      <div className="circles-container">
-        <div className="circle"></div>
-        <div className="circle"></div>
-        <div className="circle"></div>
-        <div className="circle active"></div>
-      </div>
-      <Link to="/login" className="next-button">Finished</Link>
-      <Link to="/welcome3" className="next-button">Previous</Link>
+    <div className="content">
+    <div className="image-container">
+      <img src = {MoneyHand} width={200} height={200} alt="Money and two hands" />
     </div>
+      <p style={{color: 'black', fontSize: 18}}>Build a Solid Financial Future: WiseWallet Safeguards Your Money Journey.</p>
+    </div>
+    
+    <div className="circles-container">
+      <div className="circle"></div>
+      <div className="circle"></div>
+      <div className="circle"></div>
+      <div className="circle active"></div>
+    </div>
+    <div>
+      <Link to="/welcome3" className="next-button" style={{margin: 10}}>Previous</Link>
+      <Link to="/login" className="next-button">Next</Link>
+    </div>
+  </div>
   );
 };
 

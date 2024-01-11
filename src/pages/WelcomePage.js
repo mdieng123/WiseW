@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../style/WelcomePage.css';
-import money from '../images/money2.png'
+import Cash from '../images/cash.png';
 
 const WelcomePage = () => {
   // useEffect(() => {
@@ -30,11 +30,10 @@ const WelcomePage = () => {
   return (
     <div className="welcome-page">
       <div className="content">
-        <h1>WiseWallet</h1>
         <div className="image-container">
-        <img src = {money} width={75} height={75} alt="Money" />
+        <img src = {Cash} width={200} height={200} alt="Cash and Coins" />
       </div>
-        <p>Empower Your Financial Journey with WiseWallet</p>
+        <p style={{color: 'black', fontSize: 18}}>Empower your financial journey with WiseWallet.</p>
       </div>
      
       <div className="circles-container">
