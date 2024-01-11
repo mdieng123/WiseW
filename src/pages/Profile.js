@@ -15,10 +15,7 @@ const Profile = () => {
     borderRadius: "50%",
     objectFit: "cover",
   };
-
-  const pfpName_style = {};
-  const pfpEmail_style = {};
-
+  
   const profileCard_style = {
     /* max-width: 400px; */
     /* margin: 50px auto; */
