@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, #4b6cb7, #182848);
+    background: linear-gradient(to top, #fff, #317b8c);
     color: #fff;
   }
   
@@ -35,21 +35,17 @@
     }
   
     .active {
-      background-color: #ffd700; /* Active circle color */
+      background-color: #000000; /* Active circle color */
     }
   }
   
   .next-button {
-    background-color: #4b6cb7; /* Button color */
+    background-color: #000000; /* Button color */
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  
-    &:hover {
-      background-color: #182848; /* Hover color */
-    }
   }
   

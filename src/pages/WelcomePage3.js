@@ -2,7 +2,7 @@
 import React from 'react';
 import '../style/WelcomePage.css';
 import { Link } from 'react-router-dom';
-import money from '../images/money1.jpg'
+import Piggy from '../images/piggy-bank.png'
 
 
 const WelcomePage3 = () => {
@@ -10,9 +10,9 @@ const WelcomePage3 = () => {
     <div className="welcome-page">
       <div className="content">
       <div className="image-container">
-        <img src = {money} width={75} height={75} alt="Money" />
+        <img src = {Piggy} width={200} height={200} alt="Piggy Bank" />
       </div>
-        <p>Banish Money Worries: WiseWallet Keeps You in Control and On Budget</p>
+        <p style={{color: 'black', fontSize: 18}}>Banish Money Worries: WiseWallet Keeps You in Control and On Budget</p>
       </div>
       
       <div className="circles-container">
@@ -21,8 +21,10 @@ const WelcomePage3 = () => {
         <div className="circle active"></div>
         <div className="circle"></div>
       </div>
-      <Link to="/welcome4" className="next-button">Next</Link>
-      <Link to="/welcome2" className="next-button">Previous</Link>
+      <div>
+        <Link to="/welcome2" className="next-button" style={{margin: 10}}>Previous</Link>
+        <Link to="/welcome4" className="next-button">Next</Link>
+      </div>
     </div>
   );
 };
