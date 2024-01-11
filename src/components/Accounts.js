@@ -1,7 +1,7 @@
 // Accounts.js
 import React from "react";
-import MasterCard from "./images/mastercard-logo.png";
-import Visa from "./images/visa-logo.jpeg";
+import MasterCard from "../images/mastercard-logo.png";
+import Visa from "../images/visa-logo.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMoneyBillWave,

@@ -6,8 +6,8 @@ import WelcomePage2 from './components/WelcomePage2';
 import WelcomePage3 from './components/WelcomePage3';
 import WelcomePage4 from './components/WelcomePage4';
 import Login from './components/Login';
-import Profile from './Profile';
-import Accounts from './Accounts';
+import Profile from './components/Profile';
+import Accounts from './components/Accounts';
 
 const App = () => {
   return (

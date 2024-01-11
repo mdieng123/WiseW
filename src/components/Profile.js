@@ -1,6 +1,6 @@
 // Profile.js
 import React from "react";
-import Popa from "./images/popa_andrei.jpeg";
+import Popa from "../images/popa_andrei.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGear,
