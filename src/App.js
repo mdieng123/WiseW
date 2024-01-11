@@ -5,6 +5,7 @@ import WelcomePage from './pages/WelcomePage';
 import WelcomePage2 from './pages/WelcomePage2';
 import WelcomePage3 from './pages/WelcomePage3';
 import WelcomePage4 from './pages/WelcomePage4';
+import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Accounts from './pages/Accounts';
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/welcome3" element={<WelcomePage3 />} />
         <Route path="/welcome4" element={<WelcomePage4 />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/accounts" element={<Accounts />} />
       </Routes>
