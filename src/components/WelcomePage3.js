@@ -2,18 +2,19 @@
 import React from 'react';
 import './WelcomePage.css';
 import { Link } from 'react-router-dom';
+import money from '../images/money1.jpg'
 
 
 const WelcomePage3 = () => {
   return (
     <div className="welcome-page">
       <div className="content">
-        <h1>Page 3</h1>
-        <p>Welcome to the third page.</p>
-      </div>
       <div className="image-container">
-        <img src="../images/money3.jpg" alt="Money" />
+        <img src = {money} width={75} height={75} alt="Money" />
       </div>
+        <p>Banish Money Worries: WiseWallet Keeps You in Control and On Budget</p>
+      </div>
+      
       <div className="circles-container">
         <div className="circle"></div>
         <div className="circle"></div>

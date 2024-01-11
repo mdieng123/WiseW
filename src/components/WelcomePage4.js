@@ -19,8 +19,8 @@ const WelcomePage4 = () => {
         <div className="circle"></div>
         <div className="circle active"></div>
       </div>
-      <Link to="/" className="next-button">Finished</Link>
-      <Link to="/login" className="next-button">Previous</Link>
+      <Link to="/login" className="next-button">Finished</Link>
+      <Link to="/welcome3" className="next-button">Previous</Link>
     </div>
   );
 };

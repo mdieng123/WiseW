@@ -1,10 +1,32 @@
 // WelcomePage.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './WelcomePage.css';
-import money from '../images/money1.jpg'
+import money from '../images/money2.png'
 
 const WelcomePage = () => {
+  // useEffect(() => {
+  //   // Chatbot configuration
+  //   window.embeddedChatbotConfig = {
+  //     chatbotId: "aew9Bl39l6J9s9xPfiuFS",
+  //     domain: "www.chatbase.co"
+  //   };
+
+  //   // Load Chatbot script
+  //   const script = document.createElement('script');
+  //   script.src = 'https://www.chatbase.co/embed.min.js';
+  //   script.chatbotId = 'aew9Bl39l6J9s9xPfiuFS';
+  //   script.domain = 'www.chatbase.co';
+  //   script.defer = true;
+
+  //   document.head.appendChild(script);
+
+  //   // Clean up on component unmount
+  //   return () => {
+  //     document.head.removeChild(script);
+  //   };
+  // }, []);
+
   return (
     <div className="welcome-page">
       <div className="content">
