@@ -1,0 +1,55 @@
+/* WelcomePage.css */
+.welcome-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .image-container {
+    margin: 20px 0;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .circles-container {
+    display: flex;
+    margin-bottom: 20px;
+  
+    .circle {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+      margin: 0 5px;
+    }
+  
+    .active {
+      background-color: #ffd700; /* Active circle color */
+    }
+  }
+  
+  .next-button {
+    background-color: #4b6cb7; /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #182848; /* Hover color */
+    }
+  }
+  
