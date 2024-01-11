@@ -1,6 +1,6 @@
 // WelcomePage4.js
 import React from 'react';
-import './WelcomePage.css';
+import '../style/WelcomePage.css';
 import { Link } from 'react-router-dom';
 
 const WelcomePage4 = () => {

@@ -1,7 +1,7 @@
 // WelcomePage.js
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './WelcomePage.css';
+import '../style/WelcomePage.css';
 import money from '../images/money2.png'
 
 const WelcomePage = () => {

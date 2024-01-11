@@ -1,13 +1,13 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import WelcomePage from './components/WelcomePage';
-import WelcomePage2 from './components/WelcomePage2';
-import WelcomePage3 from './components/WelcomePage3';
-import WelcomePage4 from './components/WelcomePage4';
-import Login from './components/Login';
-import Profile from './components/Profile';
-import Accounts from './components/Accounts';
+import WelcomePage from './pages/WelcomePage';
+import WelcomePage2 from './pages/WelcomePage2';
+import WelcomePage3 from './pages/WelcomePage3';
+import WelcomePage4 from './pages/WelcomePage4';
+import Login from './pages/Login';
+import Profile from './pages/Profile';
+import Accounts from './pages/Accounts';
 
 const App = () => {
   return (

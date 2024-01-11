@@ -1,6 +1,6 @@
 // WelcomePage2.js
 import React from 'react';
-import './WelcomePage.css';
+import '../style/WelcomePage.css';
 import { Link } from 'react-router-dom';
 import money from '../images/money3.png'
 
