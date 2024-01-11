@@ -7,6 +7,7 @@ import WelcomePage3 from './components/WelcomePage3';
 import WelcomePage4 from './components/WelcomePage4';
 import Login from './components/Login';
 import Profile from './Profile';
+import Accounts from './Accounts';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/welcome4" element={<WelcomePage4 />} />
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/accounts" element={<Accounts />} />
       </Routes>
     </Router>
   );
