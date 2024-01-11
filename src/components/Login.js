@@ -17,9 +17,8 @@ const Login = () => {
       <p>
         Don't have an account? <Link to="/signup">Sign up</Link>
       </p>
-
-      <Link to="/" className="dashboard-link">
-        Go to Welcome
+      <Link to="/dashboard" className="dashboard-link">
+        Go to Dashboard
       </Link>
     </div>
   );
