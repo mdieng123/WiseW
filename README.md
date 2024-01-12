@@ -1,3 +1,14 @@
+
+<img width="1505" alt="Screenshot 2024-01-12 at 6 06 57 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/7579dd26-a092-4960-b3be-a72618a20d42">
+
+
+<img width="843" alt="Screenshot 2024-01-12 at 6 09 31 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/01d5c504-1ebb-4cfd-a43e-4f8f41c9dda4">
+
+<img width="556" alt="Screenshot 2024-01-12 at 6 10 42 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/02836d94-3e52-4528-a059-03782fd5ccde">
+
+<img width="568" alt="Screenshot 2024-01-12 at 6 11 00 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/80f1ba28-c404-41f4-a2c6-32734554dcaa">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
