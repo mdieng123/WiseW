@@ -1,0 +1,38 @@
+/* App.css */
+
+.root {
+    flex: 1;
+    margin: 16px;
+  }
+  
+  .container {
+    flex: 1;
+    position: relative;
+  }
+  
+  .absolute-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .card {
+    height: 250px;
+    border-radius: 10px;
+  }
+  
+  
+  .scroll-view {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    touch-action: pan-y;
+  }
+  

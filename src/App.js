@@ -11,6 +11,8 @@ import Profile from './pages/Profile';
 import Accounts from './pages/Accounts';
 import Notifications from './pages/Notifications';
 import TransactionCard from './pages/TransactionCard';
+import FolderStack from './pages/FolderStack';
+import Appp from './pages/Appp';
 
 const App = () => {
   return (
@@ -27,6 +29,10 @@ const App = () => {
         <Route path="/accounts" element={<Accounts />} />
         <Route path="/noti" element={<Notifications />} />
         <Route path="/card" element={<TransactionCard />} />
+        <Route path="/fold" element={<FolderStack />} />
+        <Route path="/pp" element={<Appp />} />
+
+
 
 
 
