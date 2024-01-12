@@ -15,9 +15,9 @@ const Login = () => {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#006492', // Background color
-    padding: '15px', // Adjust padding as needed
-    width: 'auto', // Set width to auto
+    backgroundColor: '#006492',
+    padding: '15px',
+    width: 'auto',
     backgroundColor: 'white',
 
   };
@@ -25,9 +25,9 @@ const Login = () => {
   const signInButtonStyle = {
     backgroundColor: 'grey',
     color: '#006492',
-    border: '1px solid #006492', // Adjust the border as needed
-    borderRadius: '5px', // Optional: Add border-radius for rounded corners
-    padding: '10px 20px', // Adjust padding as needed
+    border: '1px solid #006492',
+    borderRadius: '5px',
+    padding: '10px 20px',
     cursor: 'pointer',
   };
   

@@ -17,7 +17,7 @@ const Accounts = () => {
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'center', // Vertically center the items
+    alignItems: 'center',
     margin: 10,
   };
 
@@ -27,7 +27,7 @@ const Accounts = () => {
 
   return (
     <div className="page" style={{}}>
-        <h1 style={{margin: 30, color: 'black'}}>Accounts</h1>
+        <h1 style={{margin: 60, color: 'black'}}>Accounts</h1>
       <div className="bank-accounts" style={accounts_style}>
         <p style={{color: 'black', fontSize: 24, margin: 10, }}>Bank Accounts</p>
         <div style={card_style} >

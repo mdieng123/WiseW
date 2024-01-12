@@ -4,6 +4,10 @@ import Files from "../images/files.png";
 import { Link } from "react-router-dom";
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBell
+} from "@fortawesome/free-solid-svg-icons";
 
 const Dashboard = () => {
     useEffect(() => {
@@ -33,26 +37,25 @@ const Dashboard = () => {
     border: "1px solid #ddd",
     backgroundColor: "#ffffff",
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
-    width: "60%", // Adjusted to 80% of the container width
-    margin: "20px auto", // Added margin around the card and centered horizontally
+    width: "60%",
+    margin: "20px auto",
   };
 
   const notify = () => {
-   
-    toast('Need assistance? Simply click on the chatbot icon in the bottom right to connect with our virtual assistant!' , { delay: 100000 });
-
- 
+    toast('Need assistance? Simply click on the chatbot icon in the bottom right to connect with our virtual assistant!' , { delay: 5000 });
   };
 
   return (
     <div className="page">
-        {/* ignore this button. the one we want styled is at the bottom of this return block */}
-        <spacer type="horizontal" width="100" height="400"> ♢ </spacer>
-      <h1 style={{ margin: 20, color: "black", textAlign: "left" }}>
-        Dashboard
-      </h1>
-      <button onClick={notify}>Notify</button>
-      <ToastContainer />
+        {/* ignore this button. the one we want styled is at the bottom of this return block */}        
+        <div style={{display: 'flex', alignItems: 'center', justifyContent: "space-between"}}>
+        <h1 style={{margin: 65, color: 'black'}}>Dashboard</h1>
+        <button onClick={notify} style={{margin: 60, backgroundColor: '#006492'}}>
+          <FontAwesomeIcon icon={faBell} style={{height: '30px', width: '30px'}} onClick={notify}/>
+        </button>
+        </div>
+        
+        <ToastContainer />
       <div className="bank-accounts">
         <div style={card_style}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>

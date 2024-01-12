@@ -16,10 +16,10 @@ const DashboardToday = () => {
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'center', // Vertically center the items
-    margin: "auto", // Center the card horizontally
-    width: '60%', // Set the width to 60% of the screen size
-    padding: "20px", // Add padding for content
+    alignItems: 'center', 
+    margin: "auto",
+    width: '60%',
+    padding: "20px",
     marginBottom: '20px',
   };
   const notify = () => {

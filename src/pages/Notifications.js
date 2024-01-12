@@ -12,21 +12,20 @@ const Notifications = () => {
       id: 1,
       type: 'info',
       message: 'Your monthly spending report is ready.',
-      date: new Date(2024, 1, 10), // Sample date associated with the notification
+      date: new Date(2024, 1, 10),
     },
     {
       id: 2,
       type: 'tip',
       message: 'Tip: Try categorizing your expenses to get better insights.',
-      date: new Date(2024, 1, 15), // Sample date associated with the notification
+      date: new Date(2024, 1, 15), 
     },
     {
       id: 3,
       type: 'info',
       message: 'You reached a savings milestone! Keep it up!',
-      date: new Date(2024, 1, 20), // Sample date associated with the notification
+      date: new Date(2024, 1, 20),
     },
-    // Add more sample notifications as needed
   ]);
 
   const markAsRead = (id) => {
