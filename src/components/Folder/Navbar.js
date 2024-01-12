@@ -39,9 +39,13 @@ const Navbar = () => {
 };
 
 const navbarStyle = {
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
   backgroundColor: 'white',
   color: 'black',
-  padding: '15px', // Adjust the padding to make the navbar bigger
+  padding: '15px',
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
