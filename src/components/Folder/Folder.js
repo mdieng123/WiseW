@@ -1,20 +1,24 @@
 
 import React, { useState } from 'react';
-import './Folder.css'; // Add styling
+import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Folder = ({ header }) => {
+const Folder = (props) => {
+  const header = props.header;
+
   return (
-    <div class="container mt-5 ">
-      <div class="col">
-        <div class="d-flex flex-row bg-highlight mb-3">
-          <div class="p-3 bg-success margin-0">Flex item 1</div>
-        </div>
-        <div class="row">
-            <div class="bg-primary p-3">Element 3</div>
-        </div>
-      </div>
-    </div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Body>
+        <Card.Title>{header}</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Card.Link href="#">Card Link</Card.Link>
+        <Card.Link href="#">Another Link</Card.Link>
+      </Card.Body>
+    </Card>
   );
 };
 
