@@ -7,6 +7,7 @@ import {
   faMoneyBillWave,
   faPlus
 } from "@fortawesome/free-solid-svg-icons";
+import SideBar from "./Sidebar";
 
 const Accounts = () => {
     const pageStyle = {

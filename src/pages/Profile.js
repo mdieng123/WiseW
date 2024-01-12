@@ -8,6 +8,7 @@ import {
   faCircleQuestion,
   faArrowRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
+import SideBar from "./Sidebar";
 
 const Profile = () => {
   const pfpImg_style = {
@@ -39,6 +40,8 @@ const Profile = () => {
   };
 
   return (
+    <div>
+      <SideBar />
     <div className="page">
       <div className="profile-card" style={profileCard_style}>
         <img src={Popa} style={pfpImg_style} alt="Profile" />
@@ -61,6 +64,8 @@ const Profile = () => {
         <Link to="/login" className="signOut-container">Sign Out</Link>
       </div>
     </div>
+    </div>
+
   );
 };
 

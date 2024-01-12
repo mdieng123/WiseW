@@ -7,9 +7,13 @@ import {
   faMoneyBillWave,
   faPlus
 } from "@fortawesome/free-solid-svg-icons";
+import SideBar from "./Sidebar";
 
 const Dashboard = () => {
     return (
+        <div>
+            <SideBar />
+       
       <body>
         <div class="container mt-5 ">
             
@@ -36,6 +40,7 @@ const Dashboard = () => {
             </div>
         </div>
       </body>
+      </div>
     );
   };
   
