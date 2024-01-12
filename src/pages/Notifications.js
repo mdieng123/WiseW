@@ -38,8 +38,7 @@ const Notifications = () => {
   };
 
   return (
-    <div>
-    <SideBar />
+    
     <div className="notifications-container">
       <h1 className="title">Notifications</h1>
       <div className="calendar-container">
@@ -65,7 +64,6 @@ const Notifications = () => {
           </li>
         ))}
       </ul>
-    </div>
     </div>
   );
 };
