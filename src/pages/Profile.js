@@ -1,5 +1,6 @@
 // Profile.js
 import React from "react";
+import { Link } from 'react-router-dom';
 import Popa from "../images/popa_andrei.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -57,6 +58,7 @@ const Profile = () => {
           <FontAwesomeIcon icon={faArrowRightFromBracket} />
           <p style={{padding: 10, color: 'black'}}>Sign Out</p>
         </div>
+        <Link to="/login" className="signOut-container">Sign Out</Link>
       </div>
     </div>
   );
