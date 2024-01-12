@@ -11,12 +11,13 @@ import {
 const Accounts = () => {
     const pageStyle = {
         backgroundColor: '#F9FBF8',
-        width: '100%'
+        width: '90vh',
+        borderRadius: '8px',
+        
       };
     
 
   const card_style = {
-    padding: "20px",
     border: "1px solid #ddd",
     backgroundColor: "#ffffff",
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",

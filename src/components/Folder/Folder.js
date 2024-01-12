@@ -7,14 +7,16 @@ const Folder = (props) => {
   const header = props.header;
 
   return (
-    <Card style={{ width: '30rem' }} class= "shadow-lg">
-      <Card.Body>
-        <Card.Title>{header}</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
-      </Card.Body>
-    </Card>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        
+      </div>
+    </div>
   );
 };
 

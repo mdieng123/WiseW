@@ -13,7 +13,7 @@ const Dashboard = () => {
       <body>
         <div class="container mt-5 ">
             
-            <div class="col">
+            <div class="col ">
                 <div class="row m-1 justify-content-center">
                     <Folder header = "Groceries"></Folder>
                 </div>
