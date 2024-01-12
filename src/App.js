@@ -1,5 +1,5 @@
 // App.js
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import WelcomePage from './pages/WelcomePage';
@@ -20,7 +20,6 @@ import SignUp from './pages/SignUp';
 
 const App = () => {
   return (
-    
     <Router>
       <Navbar />
       <Routes>
