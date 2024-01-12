@@ -31,9 +31,7 @@ const DashboardToday = () => {
     
     <div className="page">
 
-      <h1 style={{ margin: 20, color: "black", textAlign: "left" }}>
-        Dashboard
-      </h1>
+        <h1 style={{margin: 65, color: 'black'}}>Dashboard</h1>
      
 
       <div className="bank-accounts" style={{ textAlign: "center" }}>
@@ -74,7 +72,7 @@ const DashboardToday = () => {
             <FontAwesomeIcon icon={faFilePdf} style={{width: 30, height: 30,}} />
           </Link>
           
-          <p style={{ color: 'black', fontSize: 16, marginRight: '5%' }}>$ 32.21</p>
+          <p style={{ color: 'black', fontSize: 16, marginRight: '5%' }}>$ 90.00</p>
         </div>
         <div style={card_style}>
           <img src={Food_Icon} style={{ height: 50, width: 50, objectFit: 'contain', marginLeft: "5%" }} alt="Profile" />
@@ -96,7 +94,7 @@ const DashboardToday = () => {
           <Link to='/' style={{ textDecoration: 'none', color: 'black' }}>
             <FontAwesomeIcon icon={faFilePdf} style={{width: 30, height: 30,}} />
           </Link>
-          <p style={{ color: 'black', fontSize: 16, marginRight: '5%' }}>$ 16.23</p>
+          <p style={{ color: 'black', fontSize: 16, marginRight: '5%' }}>$ 30.00</p>
         </div>
         
         

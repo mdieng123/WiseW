@@ -23,8 +23,8 @@ const Login = () => {
   };
   
   const signInButtonStyle = {
-    backgroundColor: 'grey',
-    color: '#006492',
+    backgroundColor: '#006492',
+    color: 'white',
     border: '1px solid #006492',
     borderRadius: '5px',
     padding: '10px 20px',
