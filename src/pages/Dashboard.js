@@ -2,35 +2,34 @@ import React, { useEffect } from "react";
 import PieChart from "../images/pie-chart.png";
 import Files from "../images/files.png";
 import { Link } from "react-router-dom";
-import { toast, ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBell
-} from "@fortawesome/free-solid-svg-icons";
+import { faBell } from "@fortawesome/free-solid-svg-icons";
+
 
 const Dashboard = () => {
-    useEffect(() => {
-        // Chatbot configuration
-        window.embeddedChatbotConfig = {
-          chatbotId: "aew9Bl39l6J9s9xPfiuFS",
-          domain: "www.chatbase.co"
-        };
-    
-        // Load Chatbot script
-        const script = document.createElement('script');
-        script.src = 'https://www.chatbase.co/embed.min.js';
-        script.chatbotId = 'aew9Bl39l6J9s9xPfiuFS';
-        script.domain = 'www.chatbase.co';
-        script.defer = true;
-    
-        document.head.appendChild(script);
-    
-        // Clean up on component unmount
-        return () => {
-          document.head.removeChild(script);
-        };
-      }, []);
+  useEffect(() => {
+    // Chatbot configuration
+    window.embeddedChatbotConfig = {
+      chatbotId: "383ySWvH8yzZcVmUbp3OQ",
+      domain: "www.chatbase.co",
+    };
+
+    // Load Chatbot script
+    var script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.chatbotId = "383ySWvH8yzZcVmUbp3OQ";
+    script.domain = "www.chatbase.co";
+    script.defer = true;
+
+    document.head.appendChild(script);
+
+    // Clean up on component unmount
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
 
   const card_style = {
     padding: "20px",
@@ -42,20 +41,36 @@ const Dashboard = () => {
   };
 
   const notify = () => {
-    toast('Need assistance? Simply click on the chatbot icon in the bottom right to connect with our virtual assistant!' , { delay: 5000 });
+    toast(
+      "Need assistance? Simply click on the chatbot icon in the bottom right to connect with our virtual assistant!",
+      { delay: 0 }
+    );
   };
 
   return (
     <div className="page">
-        {/* ignore this button. the one we want styled is at the bottom of this return block */}        
-        <div style={{display: 'flex', alignItems: 'center', justifyContent: "space-between"}}>
-        <h1 style={{margin: 65, color: 'black'}}>Dashboard</h1>
-        <button onClick={notify} style={{margin: 60, backgroundColor: '#006492'}}>
-          <FontAwesomeIcon icon={faBell} style={{height: '30px', width: '30px'}} onClick={notify}/>
+      {/* ignore this button. the one we want styled is at the bottom of this return block */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
+        <h1 style={{ margin: 65, color: "black" }}>Dashboard</h1>
+        <button
+          onClick={notify}
+          style={{ margin: 60, backgroundColor: "#006492" }}
+        >
+          <FontAwesomeIcon
+            icon={faBell}
+            style={{ height: "30px", width: "30px" }}
+            onClick={notify}
+          />
         </button>
-        </div>
-        
-        <ToastContainer />
+      </div>
+
+      <ToastContainer />
       <div className="bank-accounts">
         <div style={card_style}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -121,5 +136,6 @@ const Dashboard = () => {
     </div>
   );
 };
+
 
 export default Dashboard;
