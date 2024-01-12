@@ -8,7 +8,6 @@ const Navbar = () => {
   const location = useLocation();
   const hideNavbarOnPages = ['/', '/welcome2', '/welcome3', '/welcome4', '/login', '/mcdonalds-receipt', '/signup']; // Add the paths of pages where you want to hide the navbar
 
-  // Conditionally render the navbar based on the current route
   if (hideNavbarOnPages.includes(location.pathname)) {
     return null;
   }
@@ -52,12 +51,13 @@ const navbarStyle = {
 };
 
 const titleStyle = {
-  fontSize: '24px', // Adjust the font size of the title
+  fontSize: '24px',
   fontWeight: 'bold',
 };
 
 const navbarItemsContainerStyle = {
   display: 'flex',
+  
 };
 
 const navbarItemStyle = {
@@ -65,16 +65,17 @@ const navbarItemStyle = {
   textDecoration: 'none',
   display: 'flex',
   alignItems: 'center',
-  marginLeft: '20px', // Adjust the spacing between items
+  marginLeft: '20px',
+  
 };
 
 const iconStyle = {
-  fontSize: '20px', // Adjust the font size of the icons
-  marginRight: '5px', // Adjust the spacing between icon and text
+  fontSize: '20px',
+  marginRight: '5px',
 };
 
 const textStyle = {
-  fontSize: '16px', // Adjust the font size of the text
+  fontSize: '16px',
 };
 
 export default Navbar;

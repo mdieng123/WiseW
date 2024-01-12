@@ -19,8 +19,7 @@ const Profile = () => {
   };
   
   const profileCard_style = {
-    /* max-width: 400px; */
-    /* margin: 50px auto; */
+    marginTop: '60px',
     padding: "20px",
     borderRadius: "5px",
     background: 'linear-gradient(to top, #fff, #317b8c)',
@@ -60,7 +59,6 @@ const Profile = () => {
           <Link to='/login' style={{ textDecoration: 'none', color: 'black', padding: 10, }}>Sign Out
             </Link>
         </div>
-        {/* <Link to="/login" className="signOut-container">Sign Out</Link> */}
       </div>
     </div>
     </div>
