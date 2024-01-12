@@ -30,6 +30,7 @@ const WelcomePage = () => {
   return (
     <div className="welcome-page">
       <div className="content">
+        <h1 style={{color: 'black'}}>Welcome to Wise Wallet</h1>
         <div className="image-container">
         <img src = {Cash} width={200} height={200} alt="Cash and Coins" />
       </div>

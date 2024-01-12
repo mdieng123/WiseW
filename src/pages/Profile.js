@@ -8,7 +8,7 @@ import {
   faCircleQuestion,
   faArrowRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
-import SideBar from "./Sidebar";
+// import SideBar from "./Sidebar";
 
 const Profile = () => {
   const pfpImg_style = {
@@ -22,9 +22,8 @@ const Profile = () => {
     /* max-width: 400px; */
     /* margin: 50px auto; */
     padding: "20px",
-    border: "1px solid #ddd",
     borderRadius: "5px",
-    backgroundColor: "#ECF4F1",
+    background: 'linear-gradient(to top, #fff, #317b8c)',
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
     /* text-align: center; */
   };
@@ -41,7 +40,6 @@ const Profile = () => {
 
   return (
     <div>
-      <SideBar />
     <div className="page">
       <div className="profile-card" style={profileCard_style}>
         <img src={Popa} style={pfpImg_style} alt="Profile" />
@@ -49,19 +47,20 @@ const Profile = () => {
         <h2 style={{color: 'black', fontSize: 18 }}>popa_andrei@yahoo.com</h2>
       </div>
       <div className="page-list" style={pageList_style}>
-        <div className="settings-container" style={page_style}>
-          <FontAwesomeIcon icon={faGear} />
-          <p style={{padding: 10, color: 'black'}}>Settings</p>
-        </div>
-        <div id="help-container" style={page_style}>
-          <FontAwesomeIcon icon={faCircleQuestion} />
-          <p style={{padding: 10, color: 'black'}}>Help</p>
-        </div>
+      <div className="settings-container" style={page_style}>
+  <FontAwesomeIcon icon={faGear} />
+  <p style={{ padding: 10, color: 'black', margin: 0 }}>Settings</p>
+</div>
+<div id="help-container" style={page_style}>
+  <FontAwesomeIcon icon={faCircleQuestion} />
+  <p style={{ padding: 10, color: 'black', margin: 0 }}>Help</p>
+</div>
         <div id="signOut-container" style={page_style}>
           <FontAwesomeIcon icon={faArrowRightFromBracket} />
-          <p style={{padding: 10, color: 'black'}}>Sign Out</p>
+          <Link to='/login' style={{ textDecoration: 'none', color: 'black', padding: 10, }}>Sign Out
+            </Link>
         </div>
-        <Link to="/login" className="signOut-container">Sign Out</Link>
+        {/* <Link to="/login" className="signOut-container">Sign Out</Link> */}
       </div>
     </div>
     </div>
