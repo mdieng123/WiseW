@@ -9,6 +9,8 @@ import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Accounts from './pages/Accounts';
+import Notifications from './pages/Notifications';
+import TransactionCard from './pages/TransactionCard';
 
 const App = () => {
   return (
@@ -23,6 +25,11 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/accounts" element={<Accounts />} />
+        <Route path="/noti" element={<Notifications />} />
+        <Route path="/card" element={<TransactionCard />} />
+
+
+
       </Routes>
     </Router>
   );

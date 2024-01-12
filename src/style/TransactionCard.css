@@ -1,0 +1,69 @@
+/* TransactionCard.css */
+.transaction-card {
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width */
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: 100%;
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  .right-side {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .transaction-details {
+    flex: 1;
+  }
+  
+  .time,
+  .date,
+  .location,
+  .price {
+    margin: 0;
+  }
+  
+  .receipt-button {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pdf-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #4b6cb7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #395a9e;
+  }
+  
