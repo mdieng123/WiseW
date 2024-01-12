@@ -13,15 +13,15 @@ const Dashboard = () => {
       <body>
         <div class="container mt-5">
             
-            <div class="row">
-                <div class="col">
+            <div class="col">
+                <div class="row">
                     <Folder header = "Groceries"></Folder>
                 </div>
-                <div class="col">
-                    <Folder header = "Groceries"></Folder>
+                <div class="row">
+                    <Folder header = "Groceries1"></Folder>
                 </div>
-                <div class="col">
-                    <Folder header = "Groceries"></Folder>
+                <div class="row">
+                    <Folder header = "Groceries2"></Folder>
                 </div>
             </div>
         </div>
