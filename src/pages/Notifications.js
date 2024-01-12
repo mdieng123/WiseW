@@ -3,8 +3,10 @@ import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import '../style/Notifications.css';
+import SideBar from './Sidebar';
 
 const Notifications = () => {
+  
   const [notifications, setNotifications] = useState([
     {
       id: 1,
@@ -36,6 +38,8 @@ const Notifications = () => {
   };
 
   return (
+    <div>
+    <SideBar />
     <div className="notifications-container">
       <h1 className="title">Notifications</h1>
       <div className="calendar-container">
@@ -61,6 +65,7 @@ const Notifications = () => {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 };
