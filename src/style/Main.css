@@ -1,8 +1,10 @@
-body {
+body{
     /* Replace these colors with your desired gradient colors */
     background: linear-gradient(to top, #fff, #317b8c);
     margin: 0; /* Removes default margin on body */
     height: 100vh; /* Ensures the gradient covers the entire viewport height */
+    display:flex;
+    justify-content:center;
     padding: 30px;
     color: #000000; /* Set text color to white or another contrasting color */
     font-family: Arial, sans-serif; /* Optional: Set a font-family */

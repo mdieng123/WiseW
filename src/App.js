@@ -27,8 +27,6 @@ const App = () => {
         <Route path="/accounts" element={<Accounts />} />
         <Route path="/noti" element={<Notifications />} />
         <Route path="/card" element={<TransactionCard />} />
-        <Route path="/fold" element={<FolderStack />} />
-        <Route path="/pp" element={<Appp />} />
 
 
 

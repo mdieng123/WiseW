@@ -11,18 +11,28 @@ import {
 const Dashboard = () => {
     return (
       <body>
-        <div class="container mt-5">
+        <div class="container mt-5 ">
             
             <div class="col">
-                <div class="row">
+                <div class="row m-1 justify-content-center">
                     <Folder header = "Groceries"></Folder>
                 </div>
-                <div class="row">
+                <div class="row m-1 justify-content-center">
                     <Folder header = "Groceries1"></Folder>
                 </div>
-                <div class="row">
+                <div class="row m-1 justify-content-center">
                     <Folder header = "Groceries2"></Folder>
                 </div>
+                <div class="row m-1 justify-content-center">
+                    <Folder header = "Groceries"></Folder>
+                </div>
+                <div class="row m-1 justify-content-center">
+                    <Folder header = "Groceries1"></Folder>
+                </div>
+                <div class="row m-1 justify-content-center">
+                    <Folder header = "Groceries2"></Folder>
+                </div>
+                
             </div>
         </div>
       </body>
