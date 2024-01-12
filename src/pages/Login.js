@@ -6,7 +6,32 @@ import Google from "../images/google-icon.png";
 import Facebook from "../images/facebook-icon.png";
 
 
+
+
 const Login = () => {
+
+  
+  const signInContainerStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#006492', // Background color
+    padding: '15px', // Adjust padding as needed
+    width: 'auto', // Set width to auto
+    backgroundColor: 'white',
+
+  };
+  
+  const signInButtonStyle = {
+    backgroundColor: 'grey',
+    color: '#006492',
+    border: '1px solid #006492', // Adjust the border as needed
+    borderRadius: '5px', // Optional: Add border-radius for rounded corners
+    padding: '10px 20px', // Adjust padding as needed
+    cursor: 'pointer',
+  };
+  
+  
   return (
     <div>
       <div style={{ textAlign: 'center', marginTop: '10px' }}>
@@ -18,12 +43,14 @@ const Login = () => {
           <input type="text" id="username" name="username" />
           <label htmlFor="password">Password:</label>
           <input type="password" id="password" name="password" />
-          
-          <button type="submit" style={{ backgroundColor: '#006492' }}>
-            <Link to='/dashboard' style={{ textDecoration: 'none', color: 'white' }}>Sign in
-            </Link>
-
-          </button>
+          <div style={signInContainerStyle}>
+  <Link to='/dashboard' style={{ textDecoration: 'none' }}>
+    <button type="submit" style={signInButtonStyle}>
+      Sign In
+    </button>
+  </Link>
+  
+</div>
         </form>
 
         <div style={{ textAlign: 'center' }}>

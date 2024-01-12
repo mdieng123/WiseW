@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFilePdf
 } from "@fortawesome/free-solid-svg-icons";
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 const DashboardToday = () => {
   const card_style = {
@@ -20,12 +22,20 @@ const DashboardToday = () => {
     padding: "20px", // Add padding for content
     marginBottom: '20px',
   };
-
+  const notify = () => {
+   
+    toast('Show after 1sec', { delay: 1000 });
+ 
+  };
   return (
+    
     <div className="page">
+
       <h1 style={{ margin: 20, color: "black", textAlign: "left" }}>
         Dashboard
       </h1>
+     
+
       <div className="bank-accounts" style={{ textAlign: "center" }}>
         <p style={{ fontSize: 24, textAlign: 'center', color: 'black'}}>Today</p>
         <img
@@ -91,6 +101,8 @@ const DashboardToday = () => {
         
         
       </div>
+      <button onClick={notify}>Notify</button>
+      <ToastContainer />
     </div>
   );
 };

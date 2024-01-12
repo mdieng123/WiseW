@@ -1,9 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PieChart from "../images/pie-chart.png";
 import Files from "../images/files.png";
 import { Link } from "react-router-dom";
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 const Dashboard = () => {
+    useEffect(() => {
+        // Chatbot configuration
+        window.embeddedChatbotConfig = {
+          chatbotId: "aew9Bl39l6J9s9xPfiuFS",
+          domain: "www.chatbase.co"
+        };
+    
+        // Load Chatbot script
+        const script = document.createElement('script');
+        script.src = 'https://www.chatbase.co/embed.min.js';
+        script.chatbotId = 'aew9Bl39l6J9s9xPfiuFS';
+        script.domain = 'www.chatbase.co';
+        script.defer = true;
+    
+        document.head.appendChild(script);
+    
+        // Clean up on component unmount
+        return () => {
+          document.head.removeChild(script);
+        };
+      }, []);
+
   const card_style = {
     padding: "20px",
     border: "1px solid #ddd",
@@ -13,11 +37,22 @@ const Dashboard = () => {
     margin: "20px auto", // Added margin around the card and centered horizontally
   };
 
+  const notify = () => {
+   
+    toast('Need assistance? Simply click on the chatbot icon in the bottom right to connect with our virtual assistant!' , { delay: 100000 });
+
+ 
+  };
+
   return (
     <div className="page">
+        {/* ignore this button. the one we want styled is at the bottom of this return block */}
+        <spacer type="horizontal" width="100" height="400"> ♢ </spacer>
       <h1 style={{ margin: 20, color: "black", textAlign: "left" }}>
         Dashboard
       </h1>
+      <button onClick={notify}>Notify</button>
+      <ToastContainer />
       <div className="bank-accounts">
         <div style={card_style}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
