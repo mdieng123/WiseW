@@ -11,6 +11,7 @@ import {
 const Accounts = () => {
     const pageStyle = {
         backgroundColor: '#F9FBF8',
+        width: '100%'
       };
     
 

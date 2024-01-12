@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import '../style/Main.css';
+import Folder from '../components/Folder/Folder.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   faMoneyBillWave,
   faPlus
@@ -9,9 +11,20 @@ import {
 const Dashboard = () => {
     return (
       <body>
-        <h1>Hello, World!</h1>
-        <p>This is a basic HTML page without additional styling.</p>
-        <a href="#">Click me</a>
+        <div class="container mt-5">
+            
+            <div class="row">
+                <div class="col">
+                    <Folder header = "Groceries"></Folder>
+                </div>
+                <div class="col">
+                    <Folder header = "Groceries"></Folder>
+                </div>
+                <div class="col">
+                    <Folder header = "Groceries"></Folder>
+                </div>
+            </div>
+        </div>
       </body>
     );
   };
