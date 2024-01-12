@@ -36,20 +36,20 @@ const Accounts = () => {
       <div className="bank-accounts" style={accounts_style}>
         <p style={{color: 'black', fontSize: 24, margin: 10, }}>Bank Accounts</p>
         <div style={card_style} >
-            <img src={MasterCard} style={{hieght: 50, width: 50, objectFit: 'contain'}} alt="Profile" />
+            <img src={MasterCard} style={{hieght: 50, width: 50, objectFit: 'contain', marginLeft: "5%"}} alt="Profile" />
             <div>
                 <p style={{color: 'black', fontSize: 12 }}>SAV</p>
                 <p style={{color: 'black', fontSize: 12 }}>***4345</p>
             </div>
-            <p style={{color: 'black', fontSize: 12 }}>$ 560</p>
+            <p style={{color: 'black', fontSize: 12 , marginRight: '5%'}}>$ 560</p>
         </div>
         <div style={card_style} >
-            <img src={Visa} style={{hieght: 50, width: 50, objectFit: 'contain'}} alt="Profile" />
+            <img src={Visa} style={{hieght: 50, width: 50, objectFit: 'contain', marginLeft: "5%"}} alt="Profile" />
             <div>
                 <p style={{color: 'black', fontSize: 12 }}>SAV</p>
                 <p style={{color: 'black', fontSize: 12 }}>***4345</p>
             </div>
-            <p style={{color: 'black', fontSize: 12 }}>$ 560</p>
+            <p style={{color: 'black', fontSize: 12, marginRight: '5%' }}>$ 560</p>
         </div>
       </div>
 
@@ -58,23 +58,23 @@ const Accounts = () => {
         </div>
 
       <div className="cash-accounts" style={accounts_style}>
-      <p style={{color: 'black', fontSize: 24, margin: 10, }}>Cash</p>
+      <p style={{color: 'black', fontSize: 24, margin: 10}}>Cash</p>
         <div style={card_style} >
-            <FontAwesomeIcon icon={faMoneyBillWave} style={{height: 45, width: 45}}/>
+            <FontAwesomeIcon icon={faMoneyBillWave} style={{height: 45, width: 45, marginLeft: '5%'}}/>
             <div>
                 <p style={{color: 'black', fontSize: 12 }}>Cash 1</p>
                 <p style={{color: 'black', fontSize: 12 }}>Selling Income</p>
             </div>
             
-            <p style={{color: 'black', fontSize: 12 }}>$ 560</p>
+            <p style={{color: 'black', fontSize: 12, marginRight: '5%'}}>$ 560</p>
         </div>
         <div style={card_style} >
-            <FontAwesomeIcon icon={faMoneyBillWave} style={{height: 45, width: 45}}/>
+            <FontAwesomeIcon icon={faMoneyBillWave} style={{height: 45, width: 45, marginLeft: '5%'}}/>
             <div>
                 <p style={{color: 'black', fontSize: 12 }}>Cash 1</p>
                 <p style={{color: 'black', fontSize: 12 }}>Selling Income</p>
             </div>
-            <p style={{color: 'black', fontSize: 12 }}>$ 560</p>
+            <p style={{color: 'black', fontSize: 12, marginRight: '5%'}}>$ 560</p>
         </div>
         
       </div>
