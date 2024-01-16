@@ -1,3 +1,4 @@
+•	The system sends push notifications to users upon card transactions, suggesting likely categories based on purchase details. Unordered receipts can be manually sorted, and the system offers an easy-to-access "folder" system for purchase receipts. Additionally, reminders and personalized budget adjustments are provided through expense trend analysis, addressing the common issue of overspending with our convenient receipt organization solution. 
 
 <img width="1505" alt="Screenshot 2024-01-12 at 6 06 57 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/7579dd26-a092-4960-b3be-a72618a20d42">
 
@@ -7,7 +8,8 @@
 <img width="556" alt="Screenshot 2024-01-12 at 6 10 42 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/02836d94-3e52-4528-a059-03782fd5ccde">
 
 <img width="568" alt="Screenshot 2024-01-12 at 6 11 00 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/80f1ba28-c404-41f4-a2c6-32734554dcaa">
-
+<img width="1508" alt="Screenshot 2024-01-12 at 10 06 29 AM" src="https://github.com/mdieng123/WiseW/assets/100810211/802f7ab6-79e0-4664-8abd-7861d78344e1">
+<img width="1379" alt="Screenshot 2024-01-12 at 6 13 25 PM" src="https://github.com/mdieng123/WiseW/assets/100810211/1e5729cb-9dba-4bf7-b077-2b1c57a18303">
 
 # Getting Started with Create React App
 
